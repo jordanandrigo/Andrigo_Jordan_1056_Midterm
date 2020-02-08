@@ -6,7 +6,8 @@ body {
     font-family: 'Fjalla One', sans-serif;
 	font-size: 14px;
 	color: #444044;
-	background-image: linear-gradient(#004990, #002442);
+	background-image: linear-gradient(#002442, #004990);
+}
 
 }
 
@@ -24,6 +25,36 @@ hr {
 	margin-top: 20px;
 }
 
+
+h2 {
+	font-size: 50px;
+	color: white;
+	font-size: bold;
+	text-align: center;
+	padding-top: 40px;
+	letter-spacing: 1px;
+} 
+
+h3 {
+	font-size: 30px;
+	color: white;
+	font-size: bold;
+	text-align: center;
+}
+
+p {
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	line-height: 1.1em;
+	font-weight: 300;
+	margin-right: 50px;
+	margin-left: 50px;
+	letter-spacing: 1px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
 .hidden {
   display: none;
 }
@@ -34,7 +65,6 @@ hr {
 	display: flex;
 	flex-wrap: wrap;
 	margin: 0 auto;	
-	background-color: black;
 }
 
 #banner {
@@ -54,7 +84,9 @@ hr {
 #header {
 	display: flex;
 	flex-direction: row;
+	height: 220px;
 	justify-content: flex-start;
+	background-image: linear-gradient(black, #002442);
 }
 
 #logo {
@@ -107,6 +139,10 @@ hr {
 }
 
 
+.selected {
+	border-radius: 10px;
+
+}
 
 
 #bodyContainer {
@@ -128,13 +164,6 @@ hr {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#open h2 {
-	font-size: 50px;
-	color: white;
-	font-size: bold;
-	text-align: center;
-	padding-top: 40px;
-}
 
 #open p {
 	font-size: 22px;
@@ -179,6 +208,7 @@ hr {
 	justify-content: space-evenly;
 }
 
+
 #box1 {
 	width: 356px;
 	height: 328px;
@@ -214,12 +244,20 @@ hr {
 /* TASTE PAGE BEGIN */
 
 #container1 {
-	width: 1240px;
+	width: 1175px;
 	height: 180px;
 	margin-top: 60px;
-	margin-left: 20px;
-	margin-right: 20px;
-	background-color: white;
+	margin-left: 50px;
+}
+
+#container1 h2 {
+	font-size: 60px;
+	color: white;
+	font-size: bold;
+	text-align: center;
+	padding-top: 10px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 }
 
 
@@ -238,44 +276,30 @@ hr {
 #box4 {
 	width: 368px;
 	height: 528px;
-	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #box5 {
 	width: 368px;
 	height: 528px;
-	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #box6 {
 	width: 368px;
 	height: 528px;
-	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 #container2 {
-	width: 1240px;
+	width: 1175px;
 	height: 300px;
 	margin-top: 60px;
-	margin-left: 20px;
-	margin-right: 20px;
-	background-color: white;
-}
+	margin-left: 50px;
+	text-align: center;
+	display: inline-block;
 
-#twoContainers {
-	width: 1240px;
-	height: 316px;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: 60px;
-	display: flex;
-	justify-content: space-evenly;
-}
-
-#container3 {
-	width: 588px;
-	height: 316px;
-	background-color: white;	
 }
 
 
@@ -325,12 +349,6 @@ hr {
 	
 }
 
-#connect2 h3 {
-	font-size: 30px;
-	color: white;
-	font-size: bold;
-	text-align: center;
-}
 
 #connectArea {
 	width: 500px;
@@ -471,15 +489,5 @@ input, textarea  {
 	color: #333;
 }
 
-p {
-	font-size: 20px;
-	color: white;
-	text-align: center;
-	line-height: 1.1em;
-	font-weight: 300;
-	margin-right: 50px;
-	margin-left: 50px;
-	letter-spacing: 1px;
-	font-family: 'Roboto Condensed', sans-serif;
-}
+
 
